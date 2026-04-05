@@ -21,3 +21,8 @@ def backtracking(A, B, vA, vB, opt):
 
 if __name__ == "__main__":
     print("Hello World")
+    alphabet = int(input("Input number of characters in alphabet: "))
+    A = input("Input string A: ")
+    B = input("Input string B: ")
+    vA = list(map(int, input("Input values for string A: ").split()))
+    vB = list(map(int, input("Input values for string B: ").split()))
