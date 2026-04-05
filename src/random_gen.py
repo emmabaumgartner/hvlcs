@@ -4,10 +4,10 @@ from hvlcs import hvlcs, backtracking
 def generate_string_and_values():
     string_A = ""
     string_B = ""
-    for _ in range(25, 50):
-        string_A += random.choice('abcdefghijklmnopqrstuvwxyz') * random.randint(5, 25)
-    for _ in range(25, 50):
-        string_B += random.choice('abcdefghijklmnopqrstuvwxyz') * random.randint(5, 25)
+    for _ in range(random.randint(25, 50)):
+        string_A += random.choice('abcdefghijklmnopqrstuvwxyz')
+    for _ in range(random.randint(25, 50)):
+        string_B += random.choice('abcdefghijklmnopqrstuvwxyz')
     values_A = []
     values_B = []
     for _ in range(len(string_A)):
