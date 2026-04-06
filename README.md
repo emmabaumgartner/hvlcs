@@ -16,3 +16,4 @@ Instructions to compile/build the code:
   9<br/>
   cb<br/>
 * Example input and output files are in data folder for replication purposes
+* To generate data, run random_gen.py.
