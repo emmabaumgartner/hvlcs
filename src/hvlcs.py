@@ -55,5 +55,5 @@ if __name__ == "__main__":
     opt_array, opt_value = hvlcs(A, B, letter_value_dict)
     print(opt_value)
     sol_array = backtracking(A, B, opt_array)
-    print(sol_array)
+    print("".join(sol_array))
     
