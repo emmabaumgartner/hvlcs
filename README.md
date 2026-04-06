@@ -19,9 +19,7 @@ Instructions to compile/build the code:
 * To generate data, run random_gen.py.
 ### Question 1
 
-See Code
-
-![][image1]
+See Code and data/runtime_graph.png for our graph.
 
 ### Question 2
 
