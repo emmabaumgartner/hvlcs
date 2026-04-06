@@ -22,8 +22,7 @@ def hvlcs(A, B, vA):
     return opt, opt[0][0]
 
 def backtracking(A, B, opt):
-    i = 0
-    j = 0
+    i, j = 0, 0
     n = len(A)
     m = len(B)
     sol_array = []
