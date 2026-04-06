@@ -21,9 +21,22 @@ def hvlcs(A, B, vA):
 
     return opt, opt[0][0]
 
-# def backtracking(A, B, vA, vB, opt):
-
-#     return 0
+def backtracking(A, B, opt):
+    i = 0
+    j = 0
+    n = len(A)
+    m = len(B)
+    sol_array = []
+    while i < n and j < m:
+        if A[i] == B[j]:
+            sol_array.append(A[i])
+            i += 1
+            j += 1
+        elif opt[i + 1][j] >= opt[i][j + 1]:
+            i += 1
+        else:
+            j += 1
+    return sol_array
 
 if __name__ == "__main__":
     letter_value_dict = {}
@@ -41,4 +54,7 @@ if __name__ == "__main__":
     B = input("Input string B: ")
 
     opt_array, opt_value = hvlcs(A, B, letter_value_dict)
+    print(opt_value)
+    sol_array = backtracking(A, B, opt_array)
+    print(sol_array)
     
