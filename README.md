@@ -6,13 +6,13 @@ Instructions to compile/build the code:
 * Clone the repository
 * This project does not require additional installations.
 * Example Input:
-  3
-  a 2
-  b 4
-  c 5
-  aacb
-  caab
+  3<br/>
+  a 2<br/>
+  b 4<br/>
+  c 5<br/>
+  aacb<br/>
+  caab<br/>
   Example Output:
-  9
-  cb
+  9<br/>
+  cb<br/>
 * Example input and output files are in data folder for replication purposes
